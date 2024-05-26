@@ -29,7 +29,7 @@ const CreateBook = () => {
       })
       .catch((err)=>{
         setLoading(false)
-        enqueueSnackbar('error')
+        enqueueSnackbar(err)
         //alert("An error happened. Please check console.")
         console.log(err)
       })
