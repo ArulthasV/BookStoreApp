@@ -97,10 +97,7 @@ router.delete('/:id',async (req,res)=>{
         }
 
         return res.status(200).send({message:"The book is deleted successfully!"})
-        // return res.status(200).send({message:"The book is deleted successfully!"})
-        // return res.status(200).send({message:"The book is deleted successfully!"})
-        // return res.status(200).send({message:"The book is deleted successfully!"})
-        // return res.status(200).send({message:"The book is deleted successfully!"})
+       
 
     }catch(err){
         console.log(err.message)
